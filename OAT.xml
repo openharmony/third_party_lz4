@@ -60,7 +60,7 @@ Note:If the text contains special characters, please escape them according to th
             <policy name="projectPolicy" desc="">
                 <policyitem type="compatibility" name="GPL-2.0+" path="programs/.*" desc="对应lz4软件包中programs目录下文件，明确不使用"/>
                 <policyitem type="compatibility" name="GPL-2.0+" path="tests/.*" desc="对应lz4软件包中test目录下文件，明确不使用"/>
-                <policyitem type="compatibility" name="GPL-2.0+" path="examples/.*" desc="对应lz4软件包中examples目录下文件，明确不使用"/>
+                <policyitem type="compatibility" name="InvalidLicense" path="examples/.*" desc="对应lz4软件包中examples目录下文件，明确不使用"/>
                 <policyitem type="compatibility" name="InvalidLicense" path="contrib/debian/copyright" desc="copyright文件"/>
             </policy>
         </policylist>
