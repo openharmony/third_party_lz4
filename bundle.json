@@ -10,11 +10,11 @@
     "dirs": {},
     "scripts": {},
     "component": {
-        "name": "thirdparty_lz4",
+        "name": "lz4",
         "subsystem": "thirdparty",
         "syscap": [],
         "features": [],
-        "adapted_system_type": [],
+        "adapted_system_type": [ "standard" ],
         "rom": "",
         "ram": "",
         "deps": {
