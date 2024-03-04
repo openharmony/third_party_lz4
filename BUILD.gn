@@ -15,7 +15,10 @@ import("//build/ohos.gni")
 import("//build/ohos/ndk/ndk.gni")
 
 config("lz4_config") {
-  include_dirs = [ "." ]
+  include_dirs = [ 
+    ".",
+    "lib"
+   ]
   cflags = [
     "-Wno-incompatible-pointer-types",
     "-Werror",
