@@ -23,7 +23,15 @@
         },
         "build": {
             "sub_component": [],
-            "inner_kits": [],
+            "inner_kits": [
+                {
+                    "name": "//third_party/lz4:liblz4_static",
+                    "header": {
+                        "header_files": [],
+                        "header_base": "//third_party/lz4/lib"
+                    }
+                }
+            ],
             "test": []
         }
     }
