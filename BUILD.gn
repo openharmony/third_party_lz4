@@ -31,3 +31,16 @@ ohos_static_library("liblz4_static") {
   ]
   public_configs = [ ":lz4_config" ]
 }
+
+ohos_shared_library("liblz4_shared") {
+  sources = [
+    "lib/lz4.c",
+    "lib/lz4hc.c",
+  ]
+  public_configs = [ ":lz4_config" ]
+  install_enable = true
+  part_name = "lz4"
+  innerapi_tags = [ "platformsdk" ]
+  subsystem_name = "thirdparty"
+  install_images = [ "system" ]
+}

@@ -26,6 +26,9 @@
             "inner_kits": [
                 {
                     "name": "//third_party/lz4:liblz4_static"
+                },
+                {
+                    "name": "//third_party/lz4:liblz4_shared"
                 }
             ],
             "test": []
