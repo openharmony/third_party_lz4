@@ -29,6 +29,7 @@ ohos_static_library("liblz4_static") {
     "lib/lz4hc.c",
     "lib/xxhash.c",
   ]
+  branch_protector_ret = "pac_ret"
   public_configs = [ ":lz4_config" ]
 }
 
